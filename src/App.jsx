@@ -66,9 +66,9 @@ function SignalArtwork() {
     <div className="signal-art" role="img" aria-label="Portrait of Praveen S with glitch-art overlays">
       <div className="signal-art-grid" />
       <div className="signal-art-stripes" />
-      <img className="signal-portrait signal-portrait-main" src="/praveen-glitch-portrait.png" alt="" fetchPriority="high" />
-      <img className="signal-portrait signal-portrait-cyan" src="/praveen-glitch-portrait.png" alt="" aria-hidden="true" />
-      <img className="signal-portrait signal-portrait-red" src="/praveen-glitch-portrait.png" alt="" aria-hidden="true" />
+      <img className="signal-portrait signal-portrait-main" src={`${import.meta.env.BASE_URL}praveen-glitch-portrait.png`} alt="" fetchPriority="high" />
+      <img className="signal-portrait signal-portrait-cyan" src={`${import.meta.env.BASE_URL}praveen-glitch-portrait.png`} alt="" aria-hidden="true" />
+      <img className="signal-portrait signal-portrait-red" src={`${import.meta.env.BASE_URL}praveen-glitch-portrait.png`} alt="" aria-hidden="true" />
       <div className="signal-portrait-shade" />
       <div className="signal-art-noise" />
       <div className="signal-scan-beam" />
@@ -196,7 +196,7 @@ function DuplicateArchive() {
         </div>
         <p className="archive-caption">STATUS LABELS FROM RESEARCHER. SUMMARIES OMIT PRIVATE REPORT MATERIAL.</p>
         <figure className="archive-intermission">
-          <img src="/duplicate-intermission.png" alt="Animated fight-scene meme captioned ‘Nanomachine's son.’" loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}duplicate-intermission.png`} alt="Animated fight-scene meme captioned ‘Nanomachine's son.’" loading="lazy" />
           <figcaption>
             <span className="archive-intermission-label">INTERMISSION / AFTER FILE 07</span>
             <strong>PLOT ARMOR,<br /><em>SON.</em></strong>
